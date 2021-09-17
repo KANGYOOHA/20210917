@@ -1,21 +1,27 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main() {
+int main()
+{
+	int Max = 0;
+	cin >> Max;
 
-	int a[100];
-	int i = 0;
-	int sum = 0;
-
-	for (i = 0; i <= 100; i++)
+	for (int i = 0; i < Max; i++) 
 	{
-		sum = sum + i;
-
-	
+		for (int k = 0; k < Max -i; k++) 
+		{
+			cout << " ";
+		}
+		
+		
+		for (int j = 0; j<=i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
 	}
-	
-	cout << sum;
 
 	return 0;
 
