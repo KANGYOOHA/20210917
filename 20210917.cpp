@@ -4,18 +4,19 @@ using namespace std;
 
 int main() {
 
-	int a = 0;
-	int b = 0;
-	int Sum = 0;
+	int a[100];
+	int i = 0;
+	int sum = 0;
 
-	//cin >> a;
-	//cin >> b;
+	for (i = 0; i <= 100; i++)
+	{
+		sum = sum + i;
 
-	Sum = a + b;
-	cout << Sum;
-	//cout << a + b;
+	
+	}
+	
+	cout << sum;
 
 	return 0;
-
 
 }
